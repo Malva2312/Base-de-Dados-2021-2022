@@ -23,9 +23,18 @@ df = pd.read_excel('Athletes.xlsx', "Details")
 #    print(athlete)
 b = [1, 2, 3]
 i = -1
-for ath in df["Name"]:
+
+
+file = open("AthletesList.txt", "r")
+aths = file.readlines()
+for a in aths:
+    print(a[0:a.find(" \n")])
+file.close()
+
+for ath in aths:
     i += 1
     print(i)
+    ath = ath[0:ath.find(" \n")]
     name = ath
     ath = ath.casefold()
     a = ath.find(" ")
@@ -72,3 +81,4 @@ for ath in df["Name"]:
     if len(bs.main.section.div.find("div", {"class": "athlete__detail b2p-col__3"}).find_all("li", {"class": "detail__item text-small"})) > 2:
         birth_year = bs.main.section.div.find("div", {"class": "athlete__detail b2p-col__3"}).find_all("li", {"class": "detail__item text-small"})[2].find("div", {"class": "col-right"}).text
     #print("Name:", name, "\nGold:", gold,"\nSilver:", silver,"\nBronze:", bronze, "\nBirth Year:", birth_year)
+    
