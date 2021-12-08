@@ -96,6 +96,5 @@ for i in range(len(ath_sheet["A"])):
     file_pos = write_to(sheet, a, file_pos)
 
 
-    
 
 workbook.save(filename = "final_datasets/events.xlsx")
