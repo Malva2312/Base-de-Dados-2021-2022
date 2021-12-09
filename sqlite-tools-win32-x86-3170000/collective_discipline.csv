@@ -1,0 +1,95 @@
+1,3x3 Basketball,Men,Men
+2,3x3 Basketball,Women,Women
+5,Archery,Team,Men
+6,Archery,Team,Mixed
+7,Archery,Team,Women
+17,Artistic Gymnastics,Team,Men
+18,Artistic Gymnastics,Team,Women
+22,Artistic Swimming,Duet,Women
+23,Artistic Swimming,Team,Women
+38,Athletics,4 x 100m Relay,Men
+39,Athletics,4 x 100m Relay,Women
+40,Athletics,4 x 400m Relay,Men
+41,Athletics,4 x 400m Relay,Mixed
+42,Athletics,4 x 400m Relay,Women
+72,Badminton,Doubles,Men
+73,Badminton,Doubles,Mixed
+74,Badminton,Doubles,Women
+77,Baseball/Softball,Baseball,Men
+78,Baseball/Softball,Softball,Women
+79,Basketball,Men,Men
+80,Basketball,Women,Women
+81,Beach Volleyball,Men,Men
+82,Beach Volleyball,Women,Women
+101,Canoe,Sprint Canoe Double 1000m,Men
+102,Canoe,Sprint Canoe Double 500m,Women
+107,Canoe,Sprint Kayak Double 1000m,Men
+108,Canoe,Sprint Kayak Double 500m,Women
+109,Canoe,Sprint Kayak Four 500m,Men
+110,Canoe,Sprint Kayak Four 500m,Women
+123,Cycling,Track Madison,Men
+124,Cycling,Track Madison,Women
+129,Cycling,Track Team Pursuit,Men
+130,Cycling,Track Team Pursuit,Women
+131,Cycling,Track Team Sprint,Men
+132,Cycling,Track Team Sprint,Women
+137,Diving,Synchronised 10m Platform,Men
+138,Diving,Synchronised 10m Platform,Women
+139,Diving,Synchronised 3m Springboard,Men
+140,Diving,Synchronised 3m Springboard,Women
+141,Equestrian,Dressage,Mixed
+143,Equestrian,Eventing,Mixed
+146,Equestrian,Jumping Team,Mixed
+149,Fencing,Épée Team,Men
+150,Fencing,Épée Team,Women
+153,Fencing,Foil Team,Men
+154,Fencing,Foil Team,Women
+157,Fencing,Sabre Team,Men
+158,Fencing,Sabre Team,Women
+159,Football,Men,Men
+160,Football,Women,Women
+163,Handball,Men,Men
+164,Handball,Women,Women
+165,Hockey,Men,Men
+166,Hockey,Women,Women
+181,Judo,Team,Mixed
+194,Rhythmic Gymnastics,All-Around,Women
+197,Rowing,Double Sculls,Men
+198,Rowing,Double Sculls,Women
+199,Rowing,Eight,Men
+200,Rowing,Eight,Women
+201,Rowing,Four,Men
+202,Rowing,Four,Women
+203,Rowing,Lightweight Double Sculls,Men
+204,Rowing,Lightweight Double Sculls,Women
+205,Rowing,Pair,Men
+206,Rowing,Pair,Women
+207,Rowing,Quadruple Sculls,Men
+208,Rowing,Quadruple Sculls,Women
+211,Rugby Sevens,Men,Men
+212,Rugby Sevens,Women,Women
+213,Sailing,470,Men
+214,Sailing,470,Women
+215,Sailing,49er,Men
+216,Sailing,49er FX,Women
+220,Sailing,Nacra 17,Mixed
+224,Shooting,10m Air Pistol,Mixed
+227,Shooting,10m Air Rifle,Mixed
+236,Shooting,Trap,Mixed
+265,Swimming,4 x 100m Freestyle Relay,Men
+266,Swimming,4 x 100m Freestyle Relay,Women
+267,Swimming,4 x 100m Medley Relay,Mixed
+268,Swimming,4 x 100m Medley Relay,Women
+269,Swimming,4 x 200m Freestyle Relay,Men
+270,Swimming,4 x 200m Freestyle Relay,Women
+279,Table Tennis,Doubles,Mixed
+282,Table Tennis,Team,Men
+283,Table Tennis,Team,Women
+292,Tennis,Doubles,Men
+293,Tennis,Doubles,Mixed
+294,Tennis,Doubles,Women
+300,Triathlon,Relay,Mixed
+302,Volleyball,Men,Men
+303,Volleyball,Women,Women
+304,Water Polo,Men,Men
+305,Water Polo,Women,Women
