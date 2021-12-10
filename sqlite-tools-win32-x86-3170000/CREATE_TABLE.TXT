@@ -59,7 +59,7 @@ CREATE TABLE Location(idLocation INT PRIMARY KEY, city TEXT NOT NULL, capacity I
 
 CREATE TABLE Medal(idMedal INT PRIMARY KEY, gold INT, silver INT, bronze INT);
 
-CREATE TABLE AtlheteEarnsMedal(idMedal INT NOT NULL, idParticipant INT NOT NULL,
+CREATE TABLE AthleteEarnsMedal(idMedal INT NOT NULL, idParticipant INT NOT NULL,
 FOREIGN KEY(idMedal) REFERENCES Medal(idMedal),
 FOREIGN KEY(idParticipant) REFERENCES Participant(idParticipant));
 
