@@ -1,3 +1,5 @@
+PRAGMA foreign_keys = ON;
+
 INSERT INTO Ceremony VALUES(1,'2021-07-23','12:00:00');
 INSERT INTO Ceremony VALUES(2,'2021-08-08','12:00:00');
 
@@ -22006,6 +22008,59 @@ INSERT INTO Competition VALUES(335,'2021-08-01','2021-08-07');
 INSERT INTO Competition VALUES(336,'2021-08-01','2021-08-07');
 
 
+
+INSERT INTO Location VALUES(1,'Aomi Urban Sports Park',7100);
+INSERT INTO Location VALUES(2,'Yumenoshima Park Archery Field',5600);
+INSERT INTO Location VALUES(3,'Ariake Gymnastics Centre',12000);
+INSERT INTO Location VALUES(4,'Tokyo Aquatics Centre',15000);
+INSERT INTO Location VALUES(5,'Olympic Stadium',68000);
+INSERT INTO Location VALUES(6,'Sapporo Odori Park','');
+INSERT INTO Location VALUES(7,'Musashino Forest Sport Plaza',7200);
+INSERT INTO Location VALUES(8,'Fukushima Azuma Baseball Stadium',14300);
+INSERT INTO Location VALUES(9,'Yokohama Baseball Stadium',35000);
+INSERT INTO Location VALUES(10,'Saitama Super Arena',21000);
+INSERT INTO Location VALUES(11,'Shiokaze Park',12000);
+INSERT INTO Location VALUES(12,'Kokugikan Arena',7300);
+INSERT INTO Location VALUES(13,'Kasai Canoe Slalom Centre',7500);
+INSERT INTO Location VALUES(14,'Sea Forest Waterway',12800);
+INSERT INTO Location VALUES(15,'Ariake Urban Sports Park',6600);
+INSERT INTO Location VALUES(16,'Ariake Urban Sports Park',5000);
+INSERT INTO Location VALUES(17,'Izu MTB Course',11500);
+INSERT INTO Location VALUES(18,'Musashinonomori Park','');
+INSERT INTO Location VALUES(19,'Fuji International Speedway',22000);
+INSERT INTO Location VALUES(20,'Izu Velodrome',3600);
+INSERT INTO Location VALUES(21,'Equestrian Park',9300);
+INSERT INTO Location VALUES(22,'Sea Forest Cross-Country Course',16000);
+INSERT INTO Location VALUES(23,'Makuhari Messe',8000);
+INSERT INTO Location VALUES(24,'Olympic Stadium',68000);
+INSERT INTO Location VALUES(25,'Tokyo Stadium',48000);
+INSERT INTO Location VALUES(26,'Sapporo Dome',41000);
+INSERT INTO Location VALUES(27,'Miyagi Stadium',49000);
+INSERT INTO Location VALUES(28,'Ibaraki Kashima Stadium',40000);
+INSERT INTO Location VALUES(29,'Saitama Stadium',63700);
+INSERT INTO Location VALUES(30,'International Stadium Yokohama',72000);
+INSERT INTO Location VALUES(31,'Kasumigaseki Country Club',25000);
+INSERT INTO Location VALUES(32,'Yoyogi National Stadium',10200);
+INSERT INTO Location VALUES(33,'Oi Hockey Stadium',15000);
+INSERT INTO Location VALUES(34,'Nippon Budokan',11000);
+INSERT INTO Location VALUES(35,'Odaiba Marine Park',5500);
+INSERT INTO Location VALUES(36,'Musashino Forest Sport Plaza',7200);
+INSERT INTO Location VALUES(37,'Sea Forest Waterway',16000);
+INSERT INTO Location VALUES(38,'Tokyo Stadium',48000);
+INSERT INTO Location VALUES(39,'Enoshima Yacht Harbour',3600);
+INSERT INTO Location VALUES(40,'Asaka Shooting Range',3200);
+INSERT INTO Location VALUES(41,'Ariake Urban Sports Park',7000);
+INSERT INTO Location VALUES(42,'Aomi Urban Sports Park',8400);
+INSERT INTO Location VALUES(43,'Tsurigasaki Surfing Beach',6000);
+INSERT INTO Location VALUES(44,'Tokyo Metropolitan Gymnasium',7000);
+INSERT INTO Location VALUES(45,'Makuhari Messe',10000);
+INSERT INTO Location VALUES(46,'Ariake Tennis Park','');
+INSERT INTO Location VALUES(47,'Ariake Arena',15000);
+INSERT INTO Location VALUES(48,'Tatsumi Water Polo Centre',4700);
+INSERT INTO Location VALUES(49,'Tokyo International Forum',5000);
+
+
+
 INSERT INTO CompetitionLocation VALUES(1,1);
 INSERT INTO CompetitionLocation VALUES(2,1);
 INSERT INTO CompetitionLocation VALUES(3,2);
@@ -22362,56 +22417,6 @@ INSERT INTO CompetitionLocation VALUES(334,45);
 INSERT INTO CompetitionLocation VALUES(335,45);
 INSERT INTO CompetitionLocation VALUES(336,45);
 
-
-INSERT INTO Location VALUES(1,'Aomi Urban Sports Park',7100);
-INSERT INTO Location VALUES(2,'Yumenoshima Park Archery Field',5600);
-INSERT INTO Location VALUES(3,'Ariake Gymnastics Centre',12000);
-INSERT INTO Location VALUES(4,'Tokyo Aquatics Centre',15000);
-INSERT INTO Location VALUES(5,'Olympic Stadium',68000);
-INSERT INTO Location VALUES(6,'Sapporo Odori Park','');
-INSERT INTO Location VALUES(7,'Musashino Forest Sport Plaza',7200);
-INSERT INTO Location VALUES(8,'Fukushima Azuma Baseball Stadium',14300);
-INSERT INTO Location VALUES(9,'Yokohama Baseball Stadium',35000);
-INSERT INTO Location VALUES(10,'Saitama Super Arena',21000);
-INSERT INTO Location VALUES(11,'Shiokaze Park',12000);
-INSERT INTO Location VALUES(12,'Kokugikan Arena',7300);
-INSERT INTO Location VALUES(13,'Kasai Canoe Slalom Centre',7500);
-INSERT INTO Location VALUES(14,'Sea Forest Waterway',12800);
-INSERT INTO Location VALUES(15,'Ariake Urban Sports Park',6600);
-INSERT INTO Location VALUES(16,'Ariake Urban Sports Park',5000);
-INSERT INTO Location VALUES(17,'Izu MTB Course',11500);
-INSERT INTO Location VALUES(18,'Musashinonomori Park','');
-INSERT INTO Location VALUES(19,'Fuji International Speedway',22000);
-INSERT INTO Location VALUES(20,'Izu Velodrome',3600);
-INSERT INTO Location VALUES(21,'Equestrian Park',9300);
-INSERT INTO Location VALUES(22,'Sea Forest Cross-Country Course',16000);
-INSERT INTO Location VALUES(23,'Makuhari Messe',8000);
-INSERT INTO Location VALUES(24,'Olympic Stadium',68000);
-INSERT INTO Location VALUES(25,'Tokyo Stadium',48000);
-INSERT INTO Location VALUES(26,'Sapporo Dome',41000);
-INSERT INTO Location VALUES(27,'Miyagi Stadium',49000);
-INSERT INTO Location VALUES(28,'Ibaraki Kashima Stadium',40000);
-INSERT INTO Location VALUES(29,'Saitama Stadium',63700);
-INSERT INTO Location VALUES(30,'International Stadium Yokohama',72000);
-INSERT INTO Location VALUES(31,'Kasumigaseki Country Club',25000);
-INSERT INTO Location VALUES(32,'Yoyogi National Stadium',10200);
-INSERT INTO Location VALUES(33,'Oi Hockey Stadium',15000);
-INSERT INTO Location VALUES(34,'Nippon Budokan',11000);
-INSERT INTO Location VALUES(35,'Odaiba Marine Park',5500);
-INSERT INTO Location VALUES(36,'Musashino Forest Sport Plaza',7200);
-INSERT INTO Location VALUES(37,'Sea Forest Waterway',16000);
-INSERT INTO Location VALUES(38,'Tokyo Stadium',48000);
-INSERT INTO Location VALUES(39,'Enoshima Yacht Harbour',3600);
-INSERT INTO Location VALUES(40,'Asaka Shooting Range',3200);
-INSERT INTO Location VALUES(41,'Ariake Urban Sports Park',7000);
-INSERT INTO Location VALUES(42,'Aomi Urban Sports Park',8400);
-INSERT INTO Location VALUES(43,'Tsurigasaki Surfing Beach',6000);
-INSERT INTO Location VALUES(44,'Tokyo Metropolitan Gymnasium',7000);
-INSERT INTO Location VALUES(45,'Makuhari Messe',10000);
-INSERT INTO Location VALUES(46,'Ariake Tennis Park','');
-INSERT INTO Location VALUES(47,'Ariake Arena',15000);
-INSERT INTO Location VALUES(48,'Tatsumi Water Polo Centre',4700);
-INSERT INTO Location VALUES(49,'Tokyo International Forum',5000);
 
 
 INSERT INTO Medal VALUES(1,0,0,1);

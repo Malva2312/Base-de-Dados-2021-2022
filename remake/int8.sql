@@ -1,1 +1,4 @@
+.mode columns
+.headers on
+.nullvalue NULL
 select distinct sportName, (CASE WHEN sum(CASE WHEN permittedGender = 'Men' AND Sport.idSport=IndividualDiscipline.idSport  THEN 1 ELSE 0 END) > 0 THEN 'TRUE' ELSE 'FALSE' END) as Men, (CASE WHEN sum(CASE WHEN permittedGender = 'Women' AND Sport.idSport=IndividualDiscipline.idSport THEN 1 ELSE 0 END) > 0 THEN 'TRUE' ELSE 'FALSE' END) as Women, (CASE WHEN sum(CASE WHEN permittedGender = 'Mixed' AND Sport.idSport=IndividualDiscipline.idSport THEN 1 ELSE 0 END) > 0 THEN 'TRUE' ELSE 'FALSE' END) as Mixed from Sport, IndividualDiscipline WHERE Sport.idSport in (select idSport from IndividualDiscipline) GROUP BY sportName;
