@@ -1,6 +1,6 @@
 # Base de Dados - 2021/2022
 
-Work done within the UC "Databases" whose objective is to create a database with the theme "Tokyo Olympic Games 2020".
+Work done within the UC "Base de Dados" whose objective is to create a database with the theme "Tokyo Olympic Games 2020".
 
 
 Made by:
