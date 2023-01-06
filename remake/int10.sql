@@ -1,4 +1,0 @@
-.mode columns
-.headers on
-.nullvalue NULL
-select distinct sportName, sum(CASE WHEN Sport.idSport IN (select idSport from IndividualDiscipline) THEN 1 ELSE 0 END) as IndividualDiscipline, sum(CASE WHEN Sport.idSport IN (select idSport from CollectiveDiscipline) THEN 1 ELSE 0 END) as CollectiveDiscipline, sum(CASE WHEN Sport.idSport IN (select idSport from IndividualDiscipline) THEN 1 ELSE 0 END) + sum(CASE WHEN Sport.idSport IN (select idSport from CollectiveDiscipline) THEN 1 ELSE 0 END) as Total from Sport, Record where Sport.idSport = Record.idSport group by sportName order by sum(CASE WHEN Sport.idSport IN (select idSport from IndividualDiscipline) THEN 1 ELSE 0 END) + sum(CASE WHEN Sport.idSport IN (select idSport from CollectiveDiscipline) THEN 1 ELSE 0 END) desc;

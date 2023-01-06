@@ -1,2 +1,0 @@
-DROP TRIGGER IF EXISTS MedalUpdate;
-DROP TRIGGER IF EXISTS EmptyMedalUpdate;
